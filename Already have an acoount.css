@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-size: 16px; */
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  /* background-color: rgb(242, 244, 247); */
+  /* height: 100%; */
+}
+
+/* .mainparent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 380px;
+  max-width: 600px;
+  width: 100%;
+  height: 70px;
+} */
+
+.mainparent {
+  height: 60vh;
+  background-color: #e9ebee;
+}
+
+.facebook-h1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* width: 100%; */
+}
+
+#facebook-h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #0866ff;
+  /* margin-left: 35px; */
+  font-weight: 700;
+}
+
+#facebook-h1 a {
+  color: #0866ff;
+  text-decoration: none;
+}
+
+.formpar {
+  /* width: 85%; */
+  /* display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e9ebee;
+  height: 50vh; */
+  width: 100%;
+  /* height: 50vh;
+  background-color: #e9ebee; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form {
+  /* font-size: 12px;
+  width: 520px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; */
+  max-width: 396px;
+  width: 100%;
+  height: 298px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-items: center; */
+  background-color: #fff;
+  box-shadow: 0px 0px 26px 5px rgba(175, 175, 175, 0.65);
+  border-radius: 8px;
+  padding: 20px;
+  /* margin-top: 20px; */
+}
+
+.fh2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: row; */
+  /* text-align: center; */
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+#fh2 {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+#EmailPass {
+  box-sizing: border-box;
+  font-size: 12px;
+  /* height: 50px; */
+  width: 396px;
+  margin-top: 10px;
+  background-color: #fff;
+  text-indent: 0;
+  border: 1px solid #ccd0d5;
+  /* box-shadow: 1px 1px 1px grey; */
+  border-radius: 5px;
+  /* padding: 10px; */
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 12px;
+  /* padding-right: 30px; */
+  /* margin-right: 10px; */
+}
+
+#EmailPass::placeholder {
+  font-size: 15px;
+}
+
+#EmailPass:hover {
+  /* border: 2px solid; */
+  border-color: #000000;
+}
+
+#EmailPass {
+  cursor: pointer;
+}
+
+.Login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#Login {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  /* padding-left: 30px;
+  padding-right: 30px; */
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: #1a6ed8;
+  color: #fff;
+}
+
+#Login:hover {
+  background-color: #1866c5;
+}
+
+#Login {
+  cursor: pointer;
+}
+
+.Forgottenpass {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 15px;
+  font-size: 14px;
+}
+
+#Forgottenpass a {
+  color: #006deb;
+  text-decoration: none;
+}
+
+#Forgottenpass a:hover {
+  text-decoration: underline;
+}
+
+#Forgottenpass2 a {
+  color: #006deb;
+  text-decoration: none;
+}
+
+#Forgottenpass2 a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #fff;
+}

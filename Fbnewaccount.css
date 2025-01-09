@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-size: 16px; */
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  background-color: #f2f4f7;
+  /* height: 100%; */
+}
+
+/* .mainparent {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  } */
+
+.facebook-h1 {
+  font-size: 40px;
+  color: #0866ff;
+  /* align-self: flex-start; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  /* align-items: center; */
+}
+
+.facebook-h1 a {
+  color: #0866ff;
+  text-decoration: none;
+}
+
+.h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.formpar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  width: 380px;
+  max-width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  /* justify-items: center; */
+  background-color: #fff;
+  box-shadow: 0px 0px 26px 5px rgba(175, 175, 175, 0.65);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.formhead {
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center;
+  text-align: center;
+  justify-content: center; */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fh2 {
+  font-size: 25px;
+  /* height: 32px; */
+  line-height: 32px;
+  font-weight: 600;
+  color: #1c1e21;
+  margin: 0;
+}
+
+.fh4 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #606770;
+  margin: 4px;
+}
+
+.seperate {
+  width: 420px;
+  height: 1px;
+  background-color: #dadde1;
+}
+
+.Textfieldpar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#Textfield {
+  box-sizing: border-box;
+  font-size: 12px;
+  /* height: 50px; */
+  width: 190px;
+  margin-top: 15px;
+  background-color: #fff;
+  text-indent: 0;
+  border: 1px solid #ccd0d5;
+  /* box-shadow: 1px 1px 1px grey; */
+  border-radius: 5px;
+  /* padding: 10px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 30px;
+}
+
+.Firstname {
+  margin-inline-end: 5px;
+}
+
+.Surname {
+  margin-inline-start: 5px;
+}
+
+.Firstname::placeholder {
+  font-size: 15px;
+}
+
+.Surname::placeholder {
+  font-size: 15px;
+}
+
+#Textfield:hover {
+  border-color: #1877f2;
+}
+
+.Textfieldpar:focus {
+  background-color: #fff;
+}
+
+.Textfieldpar:invalid {
+  border-color: red;
+}
+
+#Textfield {
+  cursor: pointer;
+}
+
+.dateofbirth label {
+  font-size: 12px;
+}
+
+.dateofbirthson {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #606770;
+}
+
+#day {
+  font-size: 15px;
+  padding: 5px;
+  padding-right: 66px;
+  margin-right: 7px;
+  border: 1px solid#ccd0d5;
+  border-radius: 4px;
+}
+
+#month {
+  font-size: 15px;
+  padding: 5px;
+  padding-right: 13px;
+  margin-right: 7px;
+  border: 1px solid#ccd0d5;
+  border-radius: 4px;
+}
+
+#year {
+  font-size: 15px;
+  padding: 5px;
+  padding-right: 66px;
+  /* margin-right: 5px; */
+  border: 1px solid#ccd0d5;
+  border-radius: 4px;
+}
+
+#day:hover,
+#month:hover,
+#year:hover {
+  border-color: #1877f2;
+}
+
+#day,
+#month,
+#year {
+  cursor: pointer;
+}
+
+.genderson {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #606770;
+}
+
+.Gendersson {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 15px;
+}
+
+.Genderssongrand1 {
+  font-size: 15px;
+  border: 1px solid#ccd0d5;
+  border-radius: 4px;
+  padding: 8px 7px;
+  /* padding-right: 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 110px; */
+  box-sizing: border-box;
+  gap: 53px;
+}
+
+/* #female::placeholder {
+  font-size: 15px;
+} */
+
+.Genderssongrand2 {
+  font-size: 15px;
+  border: 1px solid#ccd0d5;
+  border-radius: 4px;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+#Male {
+  margin-right: 5px;
+}
+
+.Genderssongrand3 {
+  font-size: 15px;
+  border: 1px solid#ccd0d5;
+  border-radius: 4px;
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  gap: 53px;
+}
+
+.Gendersshjhon::placeholder {
+  font-size: 15px;
+}
+
+#Custom {
+  margin-right: 5px;
+}
+
+.Genderssongrand1:hover,
+.Genderssongrand2:hover,
+.Genderssongrand3:hover {
+  border-color: #1877f2;
+}
+
+#female,
+#Male,
+#Custom {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.EmailPass {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#EmailPass {
+  box-sizing: border-box;
+  font-size: 12px;
+  /* height: 50px; */
+  width: 100%;
+  margin-top: 10px;
+  background-color: #fff;
+  text-indent: 0;
+  border: 1px solid#ccd0d5;
+  /* box-shadow: 1px 1px 1px grey; */
+  border-radius: 5px;
+  padding: 10px;
+  /* padding-left: 30px;
+  padding-right: 30px; */
+}
+
+#EmailPass::placeholder {
+  font-size: 15px;
+}
+
+#EmailPass:hover {
+  border-color: #1877f2;
+}
+
+#EmailPass {
+  cursor: pointer;
+}
+
+.para1 {
+  font-size: 11px;
+  margin-top: 15px;
+  color: #777777;
+}
+
+.para1 a {
+  text-decoration: none;
+}
+
+.para1 a:hover {
+  text-decoration: underline;
+}
+
+.para2 {
+  font-size: 11px;
+  margin-top: 15px;
+  color: #777777;
+  width: 390px;
+}
+
+.para2 a {
+  text-decoration: none;
+}
+
+.para2 a:hover {
+  text-decoration: underline;
+}
+
+.signup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  /* border-radius: 10px; */
+}
+
+#signup {
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: #fff;
+  font-weight: 600;
+  background-color: #00a400;
+  border: none;
+  border-radius: 5px;
+}
+
+#signup:hover {
+  cursor: pointer;
+  background-color: #008d00;
+}
+
+.Alreadyhaveanaccount {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.Alreadyhaveanaccount a {
+  font-size: 17px;
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.Alreadyhaveanaccount a:hover {
+  text-decoration: underline;
+}

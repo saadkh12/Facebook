@@ -1,0 +1,354 @@
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(255, 0, 0);
+  }
+  .fbpar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    max-width: 350px;
+    /* width: 350px; */
+    /* min-width: 50%; */
+  }
+
+  #afb {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    /* min-width: 50%; */
+    /* max-width: 600px; */
+  }
+
+  #afb2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    /* max-width: 600px; */
+    /* min-width: 50%; */
+    /* min-width: 350px; */
+
+  }
+  .mainparent{
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    /* padding: 10px; */
+  }
+  .formpar{
+    width: 100%;
+    padding: 10px;
+  }
+  .form{
+    max-width: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .inputep{
+    width: 100%;
+    font-size:14;
+    padding: 12px 0;
+  }
+  .login{
+    font-size:14px;
+    padding: 12px 0;
+  }
+  .forget a{
+    font-size: 12px;
+  }
+  .signup{
+    padding: 12px;
+    font-size: 11px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .create{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:601px) and (max-width:768px) {
+  body {
+    background-color: rgb(195, 0, 255);
+  }
+  .fbpar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 450px;
+  }
+  #afb{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+  }
+  #afb2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+  }
+  .mainparent{
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    height: auto;
+    
+  }
+  .formpar{
+    width: 100%;
+    padding: 10px;
+    max-width: 430px;
+  }
+  .form{
+    /* max-width: 80%; */
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .inputep{
+    width: 100%;
+    font-size:18;
+    padding: 13px 0;
+  }
+  .login{
+    font-size:18px;
+    padding: 13px 0;
+  }
+  .forgot{
+    font-size: 11px;
+  }
+  .signup{
+    padding: 13px;
+    font-size: 12px;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+  .create{
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+  body {
+    background-color: rgb(0, 191, 255);
+  }
+  .fbpar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 450px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  #afb{
+    text-align: start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 65px;
+  }
+  #afb2{
+    text-align: start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 25px;
+  }
+  .mainparent{
+    /* align-items: flex-start;
+    justify-content: flex-start; */
+    flex-wrap: nowrap;
+    gap: 30px;
+    height: 100vh;
+    gap: 30px;
+    justify-content: center;
+  }
+  .formpar{
+    /* align-items: flex-end; */
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    max-width: 430px;
+  }
+  .form{
+    /* max-width: 80%; */
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .inputep{
+    width: 100%;
+    font-size:20;
+    padding: 14px 0;
+  }
+  .login{
+    font-size:20px;
+    padding: 14px 0;
+  }
+  .forgot{
+    font-size: 12px;
+  }
+  .signup{
+    padding: 13px;
+    font-size: 13px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .create{
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px) {
+  body {
+    background-color: rgba(9, 255, 0, 0.377);
+  }
+  .fbpar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 450px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  #afb{
+    text-align: start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 70px;
+  }
+  #afb2{
+    text-align: start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 25px;
+  }
+  .mainparent{
+    /* align-items: flex-start;
+    justify-content: flex-start; */
+    flex-wrap: nowrap;
+    gap: 30px;
+    height: 100vh;
+    gap: 30px;
+    justify-content: center;
+  }
+  .formpar{
+    /* align-items: flex-end; */
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    max-width: 450px;
+  }
+  .form{
+    /* max-width: 80%; */
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .inputep{
+    width: 100%;
+    font-size:20;
+    padding: 15px 0;
+  }
+  .login{
+    font-size:20px;
+    padding: 15px 0;
+  }
+  .forgot{
+    font-size: 13px;
+  }
+  .signup{
+    padding: 14px;
+    font-size: 14px;
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+  .create{
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width:1201px) and (max-width:1366px) {
+  body {
+    background-color: rgba(255, 251, 0, 0.377);
+  }
+  .fbpar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 450px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 75px;
+  }
+  #afb{
+    text-align: start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 72px;
+  }
+  #afb2{
+    text-align: start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 25px;
+  }
+  .mainparent{
+    /* align-items: flex-start;
+    justify-content: flex-start; */
+    flex-wrap: nowrap;
+    /* gap: 30px; */
+    height: 100vh;
+    /* gap: 30px; */
+    justify-content: center;
+  }
+  .formpar{
+    /* align-items: flex-end; */
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    max-width: 450px;
+  }
+  .form{
+    max-width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .inputep{
+    width: 100%;
+    font-size:20;
+    padding: 15px 0;
+  }
+  .login{
+    font-size:20px;
+    padding: 15px 0;
+  }
+  .forgot{
+    font-size: 14px;
+  }
+  .signup{
+    padding: 15px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .create{
+    font-size: 14px;
+  }
+}
+
+/* @media screen and (min-width:1367px) and (max-width:1920px) {
+.mainparent{
+  width: 100%;
+  gap: 50px;
+}
+  .fbpar{
+  margin-bottom: 75px;
+}  
+.formpar{
+width: 100%;
+}
+.form{
+  width: 80%;
+}
+} */

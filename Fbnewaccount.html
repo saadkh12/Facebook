@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="Fbnewaccount.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create new account</title>
+  </head>
+  <body>
+    <section class="mainparent">
+      <div class="facebook-h1">
+        <h1 class="h1"><a href="FB.html">facebook</a></h1>
+      </div>
+      <div class="formpar">
+        <form action="" class="form">
+          <div class="formhead">
+            <h2 class="fh2">Create a new account</h2>
+            <h4 class="fh4">It's quick and easy.</h4>
+          </div>
+          <div class="seperate"></div>
+          <div class="Textfieldpar">
+            <input
+              type="text"
+              name="First name"
+              id="Textfield"
+              class="Firstname"
+              placeholder="First name"
+            />
+            <input
+              type="text"
+              name="Surname"
+              id="Textfield"
+              class="Surname"
+              placeholder="Surname"
+            />
+          </div>
+          <div class="dateofbirth">
+            <div class="dateofbirthson">
+              <label for="dateselect">Date of birth</label>
+            </div>
+            <div class="dateselect">
+              <select name="day" id="day">
+                <option value="" disabled selected>Day</option>
+                <script>
+                  for (let i = 1; i <= 31; i++) {
+                    document.write(`<option value="${i}">${i}</option>`);
+                  }
+                </script>
+              </select>
+              <select name="month" id="month">
+                <option value="" disabled selected>Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+              </select>
+              <select name="year" id="year">
+                <option value="" disabled selected>Year</option>
+                <script>
+                  const currentYear = new Date().getFullYear();
+                  for (let year = currentYear; year >= 1900; year--) {
+                    document.write(`<option value="${year}">${year}</option>`);
+                  }
+                </script>
+              </select>
+              <div class="Gender">
+                <div class="genderson">
+                  <label for="Genders">Gender</label>
+                </div>
+                <div class="Genders">
+                  <div class="Gendersson">
+                    <div class="Genderssongrand1">
+                      <label for="female">Female</label>
+                      <input type="radio" name="Female" id="female" />
+                    </div>
+                    <div class="Genderssongrand2">
+                      <label for="Male">Male</label>
+                      <input type="radio" name="Male" id="Male" />
+                    </div>
+                    <div class="Genderssongrand3">
+                      <label for="Custom">Custom</label>
+                      <input type="radio" name="Custom" id="Custom" />
+                    </div>
+                  </div>
+                  <div class="EmailPass">
+                    <input
+                      type="text"
+                      name="Email"
+                      id="EmailPass"
+                      placeholder="Mobile number or email address"
+                    />
+                    <input
+                      type="password"
+                      name="Password"
+                      id="EmailPass"
+                      placeholder="New Password"
+                    />
+                  </div>
+                  <div class="para1">
+                    <p>
+                      People who use our service may have uploaded your contact
+                      information to Facebook.
+                      <a href="">Learn more.</a>
+                    </p>
+                    <div class="para2">
+                      <p>
+                        By clicking Sign Up, you agree to our
+                        <a href="">Terms</a>, <a href="">Privacy Policy</a> and
+                        <a href="">Cookies Policy.</a> You may receive SMS
+                        notifications from us and can opt out at any time.
+                      </p>
+                      <div class="signup">
+                        <a href="signup">
+                          <input type="button" value="Sign Up" id="signup" />
+                        </a>
+                      </div>
+                      <div class="Alreadyhaveanaccount">
+                        <a href="Already have an acoount.html"
+                          >Already have an account?</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
